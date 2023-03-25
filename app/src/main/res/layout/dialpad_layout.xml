@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:rowCount="4"
+    android:columnCount="3"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <!-- Add your buttons here -->
+    <!-- Add this code inside the GridLayout -->
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:background="?attr/selectableItemBackground"
+        android:textColor="@android:color/black"
+        android:text="1"
+
+        android:onClick="onClick" />
+
+
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="2"
+        android:background="?attr/selectableItemBackground"
+        android:textColor="@android:color/black"
+        android:onClick="onClick" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="3"
+        android:background="?attr/selectableItemBackground"
+        android:textColor="@android:color/black"
+        android:onClick="onClick" />
+
+    <!-- Row 2 -->
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="4"
+        android:background="?attr/selectableItemBackground"
+        android:textColor="@android:color/black"
+        android:onClick="onClick" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="5"
+        android:background="?attr/selectableItemBackground"
+        android:textColor="@android:color/black"
+        android:onClick="onClick" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="6"
+        android:background="?attr/selectableItemBackground"
+        android:textColor="@android:color/black"
+        android:onClick="onClick" />
+
+    <!-- Row 3 -->
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="7"
+        android:background="?attr/selectableItemBackground"
+        android:textColor="@android:color/black"
+        android:onClick="onClick" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="8"
+        android:background="?attr/selectableItemBackground"
+        android:textColor="@android:color/black"
+        android:onClick="onClick" />
+    <!-- Row 4 -->
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="9"
+        android:background="?attr/selectableItemBackground"
+        android:textColor="@android:color/black"
+        android:onClick="onClick" />
+
+    <Button
+        android:id="@+id/button_hash"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="*"
+        android:background="?attr/selectableItemBackground"
+        android:textColor="@android:color/black"
+        android:onClick="onClick" />
+    <Button
+        android:id="@+id/button0"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="0"
+        android:background="?attr/selectableItemBackground"
+        android:textColor="@android:color/black"
+        android:onClick="onClick" />
+
+    <Button
+        android:id="@+id/button_star"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:text="#"
+        android:background="?attr/selectableItemBackground"
+        android:textColor="@android:color/black"
+        android:onClick="onClick" />
+
+
+    <Button
+        android:id="@+id/button_delete"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="删除"
+        android:textSize="18sp"
+        android:background="?attr/selectableItemBackground"
+        android:textColor="@android:color/black"
+        android:onClick="onClick" />
+    <!-- Add the rest of the buttons (2-9, 0, *, and #) following the same structure -->
+
+
+</GridLayout>
